@@ -1,0 +1,126 @@
+body {
+  padding: 50px 0px 0px 0px;
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2017/06/26/1092889/37eaff09ae42a4dbab6422e67427f655-700.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0; 
+}  
+
+#freshveg{
+  border-radius: 25px;
+}
+
+.search{
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+#search-bar{
+  padding: 6px 10px;
+  margin-left: 22%;
+  width: 50%;
+  border-radius: 7px 0 0 7px;
+  border: 2px solid rgb(255, 60, 0);
+  color: #9DBFAF;
+  font-size: 17px;  
+}
+
+#search-bar:focus{
+  border: 2px solid rgb(255, 60, 0);
+  font-size: 17px;
+}
+
+#search-bar-icon{
+  padding: 6px 12px;
+  border-radius: 0 7px 7px 0;
+  border: 2px solid rgb(255, 60, 0);
+  background: rgb(255, 94, 0);
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer; 
+}
+
+.row{
+  max-width: 100%;
+  margin-left: 0%;
+}
+
+.breadcrumb{
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: white;
+}
+
+#breadcrumb-name{
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+#sortby{
+  float: right;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card{
+  background-color:white;
+  border-left: 1px solid rgba(247, 247, 247, 0.911);
+  border-right: 1px solid rgba(247, 247, 247, 0.911);
+  border-bottom: 2px solid rgba(247, 247, 247, 0.911);
+  border-top: 1px solid rgba(247, 247, 247, 0.911);
+  height: 300px;
+}
+
+.box-hover:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-img-top{
+  width: 132px;
+  height: 105px;
+  margin-top: 40px;
+  margin-left: 28%;
+}
+
+.weight{
+  /* margin-top: 5%; */
+  color: rgba(129, 120, 120, 0.459);
+  margin-right: 85%;
+  margin-top: 15%;
+}
+
+#price{
+  margin-top: 5%;
+  margin-right: 85%;
+}
+
+#button-card{
+  border-radius: 24px;
+  border-color: rgb(255, 60, 0);
+  color: rgb(255, 94, 0);
+  margin-left: 48%;
+  margin-top: -15%;
+}
+
+#button-card:hover {
+  background-color: rgb(255, 60, 0);
+  color: white;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; 
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  margin-top: 3%;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}

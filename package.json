@@ -1,0 +1,30 @@
+{
+  "name": "googreenoo",
+  "version": "1.0.0",
+  "description": "This is my first project",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9958358423/gooGreenoo-Project.git"
+  },
+  "author": "Ritik Goel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9958358423/gooGreenoo-Project/issues"
+  },
+  "homepage": "https://github.com/9958358423/gooGreenoo-Project#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
